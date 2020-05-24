@@ -1,0 +1,15 @@
+jar.enabled=true
+dependencies {
+
+    //swagger
+    compile("io.springfox:springfox-swagger2:2.9.2")
+    //swagger-ui--->knife4j
+    compile 'com.github.xiaoymin:knife4j-spring-boot-starter:2.0.2'
+    //阿里fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.1.25'
+    //配置shiro相关
+    compile 'org.apache.shiro:shiro-spring:1.4.0'
+    //jwt
+    compile 'com.auth0:java-jwt:3.4.0'
+
+}

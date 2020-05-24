@@ -1,0 +1,5 @@
+
+Hsquid:S1172".Remove this unused method parameter "request".(Ñ©´ÿüÿÿÿÿ
+Ssquid:S3400"9Remove this method and declare a constant for this value.(õã­øÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë¥ªˆÿÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(Ğ›Âğıÿÿÿÿ

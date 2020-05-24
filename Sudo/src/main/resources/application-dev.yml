@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://自己写
+    username: 自己写
+    password: 自己写你的密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+
+  redis:
+    host: 自己写
+    port: 6379
+    password: 自己写
+    timeout: 3000
+    jedis:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: -1
+

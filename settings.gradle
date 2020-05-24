@@ -1,0 +1,5 @@
+rootProject.name = 'SpringBootCli'
+include 'CliPack'
+include 'Sudo'
+include 'DBPack'
+

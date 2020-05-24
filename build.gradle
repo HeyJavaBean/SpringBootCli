@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        // 优先使用国内源
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenCentral()
+    }
+    dependencies {
+        // 让spring-boot支持gradle
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.1.RELEASE")
+    }
+
+}
+
+
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.1.1.RELEASE'
+}
+
+allprojects{
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    // 使用spring boot
+    apply plugin: "org.springframework.boot"
+    // 使用spring boot的自动依赖管理
+    apply plugin: 'io.spring.dependency-management'
+
+    group 'com.imlehr'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        // 使用国内的源
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenCentral()
+    }
+
+    dependencies {
+
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        //注解处理器
+        annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+        //lombok
+        annotationProcessor 'org.projectlombok:lombok:1.18.2'
+        compileOnly 'org.projectlombok:lombok:1.18.2'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.2'
+        testCompileOnly 'org.projectlombok:lombok:1.18.2'
+        implementation 'junit:junit:4.12'
+        //springboot
+        compile ('org.springframework.boot:spring-boot-starter-web')
+        compileOnly 'javax.servlet:javax.servlet-api:3.1.0'
+
+        //瓜娃
+        compile group: 'com.google.guava', name: 'guava', version: '28.2-jre'
+
+    }
+
+}
