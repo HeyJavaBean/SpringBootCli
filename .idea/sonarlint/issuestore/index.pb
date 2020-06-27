@@ -17,8 +17,6 @@ p
 @CliPack/src/main/java/com/imlehr/filter/FilterConfiguration.java,b/c/bc4de6dc5188a4d9d8e6dabf6ce2619f2e4b5b38
 o
 ?CliPack/src/main/java/com/imlehr/config/GlobalReturnConfig.java,6/5/6517647f8ba9eaf476fb0fb6c8a4bc5285d7d8b5
-i
-9CliPack/src/main/java/com/imlehr/javabean/AccountDTO.java,6/1/6101c3dc326e65ec87d2a099aae9416a54126cf6
 j
 :CliPack/src/main/java/com/imlehr/javabean/MyException.java,f/4/f437b69719f96a70600000a05283b19b25c6c186
 D
@@ -33,3 +31,7 @@ l
 <CliPack/src/main/java/com/imlehr/config/ErrorController.java,9/5/95d265cd0455b2bb86ffdd1df118b8a30d552d58
 g
 7Sudo/src/main/java/com/imlehr/sudo/SudoApplication.java,e/1/e1b8b4bf5089142f212db7a56c2c8de89253d260
+X
+(java/com/imlehr/sudo/dao/TestMapper.java,b/2/b236e52b7ccb2808f5f565f42226dc73bd77f131
+c
+3java/com/imlehr/sudo/controller/TestController.java,f/f/ff8cf687045690b43ea2729de08e3904971c3c14
