@@ -1,10 +1,13 @@
 package com.imlehr.utils;
 
 import com.imlehr.javabean.MyException;
+import com.imlehr.security.JwtUtils;
 import lombok.SneakyThrows;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author Lehr
@@ -22,6 +25,12 @@ public class AuthUtils {
             throw new MyException("登录失败","1234");
         }
 
+    }
+
+    public static String getUsername(HttpServletRequest request)
+    {
+        String token = request.getHeader("token");
+        return JwtUtils.getClaimByName(token,"userId").toString();
     }
 
     public static void logout()

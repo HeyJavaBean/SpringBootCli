@@ -1,10 +1,8 @@
 package com.imlehr.security;
 
 import com.imlehr.javabean.MyException;
-import com.imlehr.utils.EncodingUtil;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 /**
  * @author Lehr

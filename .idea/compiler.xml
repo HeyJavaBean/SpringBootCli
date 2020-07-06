@@ -8,9 +8,9 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.2/524e0a697e9d62950b2f763d88d35cd8dc82a9a1/lombok-1.18.2.jar" />
         </processorPath>
         <module name="SpringBootCli.Sudo.test" />
+        <module name="SpringBootCli.test" />
         <module name="SpringBootCli.CliPack.test" />
         <module name="SpringBootCli.DBPack.test" />
-        <module name="com.imlehr.SpringBootCli.test" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -18,8 +18,8 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.1.1.RELEASE/1b4f9a8aab0bc68648caa0c42ad0806e30ef792c/spring-boot-configuration-processor-2.1.1.RELEASE.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.2/524e0a697e9d62950b2f763d88d35cd8dc82a9a1/lombok-1.18.2.jar" />
         </processorPath>
-        <module name="com.imlehr.SpringBootCli.main" />
         <module name="SpringBootCli.Sudo.main" />
+        <module name="SpringBootCli.main" />
         <module name="SpringBootCli.CliPack.main" />
         <module name="SpringBootCli.DBPack.main" />
       </profile>

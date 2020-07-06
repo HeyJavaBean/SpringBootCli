@@ -31,7 +31,3 @@ l
 <CliPack/src/main/java/com/imlehr/config/ErrorController.java,9/5/95d265cd0455b2bb86ffdd1df118b8a30d552d58
 g
 7Sudo/src/main/java/com/imlehr/sudo/SudoApplication.java,e/1/e1b8b4bf5089142f212db7a56c2c8de89253d260
-X
-(java/com/imlehr/sudo/dao/TestMapper.java,b/2/b236e52b7ccb2808f5f565f42226dc73bd77f131
-c
-3java/com/imlehr/sudo/controller/TestController.java,f/f/ff8cf687045690b43ea2729de08e3904971c3c14

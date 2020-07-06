@@ -1,5 +1,5 @@
 
 dependencies {
     compile project(":CliPack")
-    compile project(":DBPack")
+    //compile project(":DBPack")
 }
