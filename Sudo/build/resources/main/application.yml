@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Sudo社达
+  profiles:
+    active: dev
+
+
+server:
+  servlet:
+    context-path: /api-v1
+
